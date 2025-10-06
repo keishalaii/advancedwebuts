@@ -4,8 +4,7 @@ const conn = mysql.createConnection({
   host: "yamabiko.proxy.rlwy.net",
   user: "root",      
   password: "PWpvRQZDWvofiGnLdhoENpYmQmtKPCLl",    
-  database: "railway",
-  port: "58708"
+  database: "railway"
 });
 
 conn.connect((err) => {
