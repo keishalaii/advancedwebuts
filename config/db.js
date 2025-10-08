@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
 const conn = mysql.createConnection({
-  host: "yamabiko.proxy.rlwy.net",
+  host: "localhost",
   user: "root",      
-  password: "PWpvRQZDWvofiGnLdhoENpYmQmtKPCLl",    
-  database: "railway"
+  password: "",    
+  database: "pkm_db" 
 });
 
 conn.connect((err) => {
